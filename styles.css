@@ -1,0 +1,46 @@
+:root {
+    --blue1: #00b0f0;
+    --blue2: #002533;
+    --blue3: #002e3f;
+}
+
+* {
+    font-family: Outfit;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: #1b1a1a;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    BACKGROUND: var(--blue3);
+    COLOR: white;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    min-width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid var(--blue3);
+    transition: 0.4s ease-in-out;
+}
+
+button:hover {
+    background-color: #003548;
+    border: 3px solid #003548;
+}
+
+button:active {
+    border: 3px solid var(--blue2);
+    background: var(--blue2);
+    color: white;
+}
